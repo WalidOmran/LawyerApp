@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <meta charst="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <title>Sing Up</title>
+    <link rel="icon" href="img/online2.svg">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,400,500%7CPlayball">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/form.min.css">
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background-color: #f1f1f1;}
+        ::-webkit-scrollbar-thumb { background-color: #5f406f; border-radius: 10px;}
+        ::-webkit-scrollbar-thumb:hover { -webkit-box-shadow: 0 15px 25px rgba(95, 64, 111, .5); 
+                                         -moz-box-shadow: 0 15px 25px rgba(95, 64, 111, .5);
+                                         box-shadow: 0 15px 25px rgba(95, 64, 111, .5);}
+    </style>
+  </head>
+  <body>
+    <!-- Start Navbar-->
+    <nav class="navbar bg-main navbar-expand-lg w-100" id="home">
+        <div class="container"><a class="navbar-brand text-light w-25 mt-0 mr-5" href="index.html">Lawyer </a>
+          <button class="navbar-toggler bg-main py-1 px-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon d-block bg-light "></span><span class="navbar-toggler-icon d-block bg-light "></span><span class="navbar-toggler-icon d-block bg-light "></span></button>
+          <div class="collapse navbar-collapse text-center " id="navbarSupportedContent"> 
+            <ul class="navbar-nav mt-3 mr-auto">
+              <li class="nav-item active px-1"><a class="nav-link text-light" data-value="#home" href="#">home</a></li>
+              <li class="nav-item active px-1"><a class="nav-link text-light" data-value="#about-us" href="#">about us</a></li>
+              <li class="nav-item active px-1"><a class="nav-link text-light" data-value="#our-service" href="#">our service</a></li>
+              <li class="nav-item active px-1"><a class="nav-link text-light" data-value="#our-team" href="#">our team</a></li>
+              <li class="nav-item active px-1"><a class="nav-link text-light" data-value="#contact-us" href="#">contact us</a></li>
+              <li class="nav-item active px-1"><a class="nav-link text-light" href="#">العربية</a></li>
+              <li class="nav-item active px-1">
+                  <div class="btn-group bg-faded">
+                    <button class="btn  dropdown-toggle text-light bg-faded" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Request a constultion</button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item text-light bg-faded" href="OnlineConsultation.html">Online Consultation</a>
+                      <a class="dropdown-item text-light bg-faded" href="AppointmestBooking.html">Appointmest Booking  </a>
+                    </div>
+                  </div>
+              </li>
+              <li class="nav-item active px-1">
+                  <div class="btn-group bg-faded">
+                    <button class="btn  dropdown-toggle text-light bg-faded" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-user-o fa-1x" aria-hidden="true"> </i>
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item text-light bg-faded" href="login.html"> Log in</a>
+                      <a class="dropdown-item text-light bg-faded" href="singup.html"> Sign up </a>
+                    </div>
+                  </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Start Content-->
+    <div class="container p-5">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+            <div class="form-content d-grid w-100 p-5 my-5 mx-auto border ">
+                <h3 class="second-color">Create Your Account</h3>
+                <form class="contact-form d-grid w-100 mx-md-auto my-5 mx-auto position-relative" action="" method="post">
+                  <div class="form-group w-100  position-relative">
+                    <input class="w-100 d-block" id="text" type="text" name="text">
+                    <label class="position-absolute d-block" for="text">User name </label>
+                  </div>
+                  <div class="form-group w-100  position-relative">
+                    <input class="w-100 d-block" id="email" type="email" name="email">
+                    <label class="position-absolute d-block" for="email">Email</label>
+                  </div>
+                  <div class="form-group w-100  position-relative">
+                    <input class="w-100 d-block" id="password" type="password" name="password">
+                    <label class="position-absolute d-block" for="password"> password</label>
+                  </div>
+                  <div class="form-group w-100  position-relative">
+                    <input class="w-100 d-block" id="Confirm" type="password" name="Confirm">
+                    <label class="position-absolute d-block" for="Confirm">Confirm password</label>
+                  </div>
+                  <button class="btn login px-5 dx" type="submit">Sing up</button>
+                  
+                </form>
+                
+              </div>
+        </div>
+        <div class="col-12 col-lg-6 d-md-none d-lg-block">
+            <div class="login-img p-0 h-100 w-100">
+              <img class="w-100 h-100" src="img/form/authentication.svg" alt="">
+            </div>
+        </div>
+      </div>
+     
+    </div>
+    <!-- End Contaent-->
+    <!-- Start Footer-->
+    <footer class="position-relative">
+      <div class="bg-img-top position-absolute w-100 h-100"><img class="position-absolute d-block w-100" src="img/wave.png" alt="wave"/></div>
+      <div class="info py-5" id="contact-us">
+        <div class="container"> 
+          <div class="row text-center">
+            <div class="col-12 col-sm-6 col-lg-4 my-2"><i class="fa fa-map-marker fa-2x d-block" aria-hidden="true"></i><a class="d-block mt-3 text-light" href="">Egypt-Cairo-Street Warriors 24, 11500</a></div>
+            <div class="col-12 col-sm-6 col-lg-4 my-2"><i class="fa fa-envelope-o fa-2x d-block" aria-hidden="true"></i><a class="d-block mt-3 text-light" href="">liwyeroffice@gmail.com</a></div>
+            <div class="col-12 col-sm-6 col-lg-4 my-2"><i class="fa fa-phone fa-2x d-block" aria-hidden="true"></i><a class="d-block mt-3 text-light" href="">+0020165533368</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright py-2">
+        <div class="container"> 
+          <div class="row ">
+            <div class="col-12 col-md-6">
+              <p class="pt-4">
+                 © 2018 lawyer.net is Powered by 
+                 <a class="light-color" href="http://">Walid Omran</a>
+              </p>
+            </div>
+            <div class="col-12 col-md-6 text-right">
+              <div class="socil-made">
+                <ul class="list-unstyled">
+                  <li class="d-inline-block m-2 "><a class="link"><i class="fa fa-facebook"></i></a></li>
+                  <li class="d-inline-block m-2 "><a class="link"><i class="fa fa-twitter"></i></a></li>
+                  <li class="d-inline-block m-2 "><a class="link"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="d-inline-block m-2 "><a class="link"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--End Footer -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.fittext.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <meta charst="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <title>Log In</title>
+    <link rel="icon" href="img/online2.svg">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,400,500%7CPlayball">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/form.min.css">
+    <style>
+      /* Start Profile Slide */
+.profile-slide {
+  background: rgba(95, 64, 111, 0.4);
+
+}
+.profile-slide .profile-img {
+  background: azure;
+  top: 5%;
+  right: 10%;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #5f406f !important;
+}
+.nav-pills a:hover {
+    color: #5f406f !important;
+    text-decoration: none;
+}
+/* End Profile Slide */
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background-color: #f1f1f1;}
+        ::-webkit-scrollbar-thumb { background-color: #5f406f; border-radius: 10px;}
+        ::-webkit-scrollbar-thumb:hover { -webkit-box-shadow: 0 15px 25px rgba(95, 64, 111, .5); 
+                                         -moz-box-shadow: 0 15px 25px rgba(95, 64, 111, .5);
+                                         box-shadow: 0 15px 25px rgba(95, 64, 111, .5);}
+    </style>
+  </head>
+  <body>
+    <!-- Start Navbar-->
+    <nav class="navbar bg-main navbar-expand-lg w-100" id="home">
+        <div class="container"><a class="navbar-brand text-light w-25 mt-0 mr-5" href="index.html">Lawyer </a>
+          <button class="navbar-toggler bg-main py-1 px-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon d-block bg-light "></span><span class="navbar-toggler-icon d-block bg-light "></span><span class="navbar-toggler-icon d-block bg-light "></span></button>
+          <div class="collapse navbar-collapse text-center " id="navbarSupportedContent"> 
+            <ul class="navbar-nav mt-3 mr-auto">
+              <li class="nav-item active px-1"><a class="nav-link text-light" data-value="#home" href="#">home</a></li>
+              <li class="nav-item active px-1"><a class="nav-link text-light" data-value="#about-us" href="#">about us</a></li>
+              <li class="nav-item active px-1"><a class="nav-link text-light" data-value="#our-service" href="#">our service</a></li>
+              <li class="nav-item active px-1"><a class="nav-link text-light" data-value="#our-team" href="#">our team</a></li>
+              <li class="nav-item active px-1"><a class="nav-link text-light" data-value="#contact-us" href="#">contact us</a></li>
+              <li class="nav-item active px-1"><a class="nav-link text-light" href="#">العربية</a></li>
+              <li class="nav-item active px-1">
+                  <div class="btn-group bg-faded">
+                    <button class="btn  dropdown-toggle text-light bg-faded" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Request a constultion</button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item text-light bg-faded" href="OnlineConsultation.html">Online Consultation</a>
+                      <a class="dropdown-item text-light bg-faded" href="AppointmestBooking.html">Appointmest Booking  </a>
+                    </div>
+                  </div>
+              </li>
+              <li class="nav-item active px-1">
+                  <div class="btn-group bg-faded">
+                    <button class="btn  dropdown-toggle text-light bg-faded" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-user-o fa-1x" aria-hidden="true"> </i>
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item text-light bg-faded" href="login.html"> Log in</a>
+                      <a class="dropdown-item text-light bg-faded" href="singup.html"> Sign up </a>
+                    </div>
+                  </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Start Slide -->
+    <div class="profile-slide mt-5 position-relative">
+      <div class="container p-5">
+        <div class="row">
+          <div class="col-6">
+            <h2 class="pt-5 mt-3 text-light">Walid Omran</h2>
+          </div>
+          <div class="col-6  position-relative">
+              <img class="rounded-circle profile-img position-absolute img-thumbnail img-fluid" src="img/our-team/01.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Slide -->
+    <div class="container mt-5 pt-5">
+      
+      <div class="row">
+        <div class="col-3">
+              <div class="nav flex-column  nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link second-color active" data-toggle="pill" href="">Home</a>
+                <a class="nav-link second-color" data-toggle="pill" href="">Profile</a>
+                <a class="nav-link second-color" data-toggle="pill" href="">Messages</a>
+                <a class="nav-link second-color" data-toggle="pill" href="">Settings</a>
+              </div>
+            
+        </div>
+        <div class="col-9">
+            <div class="content">
+               <div class="row"> 
+                    <div class="col-12 col-lg-4 mt-4">
+                      <a href="#">
+                      <div class="bg-main  text-white card">
+                         <div class="card-header">
+                           <h3 class="mb-0 card-title">Consultations</h3>
+                         </div>
+                         <div class="py-3 card-body">
+                            <div class="row">
+                              <div class="align-self-center text-left col-4">
+                                <i class="fa fa-legal fa-4x" aria-hidden="true"></i>
+                              </div>
+                              <div class="align-self-center text-right col-8">
+                                <p class="text-white mb-1">Consultations</p>
+                                <h2 class="text-white">33</h2>
+                              </div>
+                            </div>
+                         </div>
+                      </div>
+                      </a>
+                    </div>
+                    <div class="col-12 col-lg-4 mt-4">
+                      <div class="bg-main  text-white card">
+                         <div class="card-header">
+                           <h3 class="mb-0 card-title">Appointment </h3>
+                         </div>
+                         <div class="py-3 card-body">
+                            <div class="row">
+                              <div class="align-self-center text-left col-4">
+                                <i class="fa fa-building-o fa-4x" aria-hidden="true"></i>
+                              </div>
+                              <div class="align-self-center text-right col-8">
+                                <p class="text-white mb-1">Appointment </p>
+                                <h2 class="text-white">44</h2>
+                              </div>
+                            </div>
+                         </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-4 mt-4">
+                      <div class="bg-main text-white card">
+                         <div class="card-header">
+                           <h3 class="mb-0 card-title">Issue</h3>
+                         </div>
+                         <div class="py-3 card-body">
+                            <div class="row">
+                              <div class="align-self-center text-left col-4">
+                                <i class="fa fa-university fa-4x" aria-hidden="true"></i>
+                              </div>
+                              <div class="align-self-center text-right col-8">
+                                <p class="text-white mb-1">Issue</p>
+                                <h2 class="text-white">50</h2>
+                              </div>
+                            </div>
+                         </div>
+                      </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Start Footer-->
+    <footer class="position-relative">
+      <div class="bg-img-top position-absolute w-100 h-100"><img class="position-absolute d-block w-100" src="img/wave.png" alt="wave"/></div>
+      <div class="info py-5" id="contact-us">
+        <div class="container"> 
+          <div class="row text-center">
+            <div class="col-12 col-sm-6 col-lg-4 my-2"><i class="fa fa-map-marker fa-2x d-block" aria-hidden="true"></i><a class="d-block mt-3 text-light" href="">Egypt-Cairo-Street Warriors 24, 11500</a></div>
+            <div class="col-12 col-sm-6 col-lg-4 my-2"><i class="fa fa-envelope-o fa-2x d-block" aria-hidden="true"></i><a class="d-block mt-3 text-light" href="">liwyeroffice@gmail.com</a></div>
+            <div class="col-12 col-sm-6 col-lg-4 my-2"><i class="fa fa-phone fa-2x d-block" aria-hidden="true"></i><a class="d-block mt-3 text-light" href="">+0020165533368</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright py-2">
+        <div class="container"> 
+          <div class="row ">
+            <div class="col-12 col-md-6">
+              <p class="pt-4">
+                    © 2018 lawyer.net is Powered by 
+                    <a class="light-color" href="http://">Walid Omran</a>
+              </p>
+            </div>
+            <div class="col-12 col-md-6 text-right">
+              <div class="socil-made">
+                <ul class="list-unstyled">
+                  <li class="d-inline-block m-2 "><a class="link"><i class="fa fa-facebook"></i></a></li>
+                  <li class="d-inline-block m-2 "><a class="link"><i class="fa fa-twitter"></i></a></li>
+                  <li class="d-inline-block m-2 "><a class="link"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="d-inline-block m-2 "><a class="link"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.fittext.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
